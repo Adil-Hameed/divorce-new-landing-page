@@ -15,11 +15,11 @@ export default function Hero() {
     };
     return (
         <>
+            <div className=' d-md-none d-block  text-end hero-bg-change-fluid'>
+                <img alt='' className='img-fluid ' src='/asset/co degrada 375 × 243 px 1 1.png' />
+            </div>
             <div className="container-fluid hero-bg-change-fluid">
                 <div className="row w-90 mx-auto  hero-bg-change rounded-5 p-md-5 px-2 pt-4">
-                    <div className='col-12 d-md-none d-block text-md-start text-center'>
-                        <img alt='' className='img-fluid mb-4' src='/asset/co degrada 375 × 243 px 1 1.png' />
-                    </div>
                     <div className='col-lg-6 col-md-10 text-md-start text-center'>
                         <p className='fs-17 text-white'>
                             YOUR HOME SELLING JOURNEY BEGINS HERE
@@ -42,31 +42,31 @@ export default function Hero() {
                             </span>
                         </div>
                     </div>
-                    
+
                     <div className="d-md-none d-block " >
                         <Slider {...settings} className='mx-auto'>
                             <div className='border light-gray rounded-3 mt-4  hero-new-card'>
-                                <p className='fs-22 fw-medium mb-0 p-4'>
+                                <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Countless homeowners have <span style={{ color: "#2CAAE6" }}>unlocked their home's value</span> and found financial freedom by selling and staying as renters.
                                 </p>
                             </div>
                             <div className='border light-gray rounded-3 mt-4   hero-new-card'>
-                                <p className='fs-22 fw-medium mb-0 p-4'>
+                                <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Access our <span style={{ color: "#2CAAE6" }}>nationwide network of investors</span> who are ready to purchase properties. Ensure you find the right buyer for your home.
                                 </p>
                             </div>
                             <div className='border light-gray rounded-3 mt-4  hero-new-card'>
-                                <p className='fs-22 fw-medium mb-0 p-4'>
+                                <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Trust Sell2Rent's <span style={{ color: "#2CAAE6" }}>30+ years of Real Estate excellence</span> to unlock the full potential of your single family home and get back on track.
                                 </p>
                             </div>
                         </Slider>
 
-                        <p className='fs-22 fw-bold text-center py-4 text-white'>
-                <span style={{ color: "#2CAAE6" }}>Get qualified</span> and discover how <span style={{ color: "#2CAAE6" }}>Sell2Rent</span>  can help you too!
-                </p>
+                        <p className='fs-22 fw-bold text-center mb-0 py-3 text-white'>
+                            <span style={{ color: "#2CAAE6" }}>Get qualified</span> and discover how <span style={{ color: "#2CAAE6" }}>Sell2Rent</span>  can help you too!
+                        </p>
                     </div>
-            
+
 
                 </div>
 
