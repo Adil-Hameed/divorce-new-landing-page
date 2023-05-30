@@ -44,18 +44,18 @@ export default function Hero() {
                     </div>
 
                     <div className="d-md-none d-block" >
-                        <Slider {...settings} className='mx-auto testing-slider px-3'>
-                            <div className='border w-100 light-gray rounded-3  mt-4  hero-new-card'>
+                        <Slider {...settings} className='mx-auto text-center testing-slider px-3'>
+                            <div className='border w-100 light-gray rounded-3 mx-auto  mt-4  hero-new-card'>
                                 <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Countless homeowners have <span style={{ color: "#2CAAE6" }}>unlocked their home's value</span> and found financial freedom by selling and staying as renters.
                                 </p>
                             </div>
-                            <div className='border w-100 light-gray rounded-3  mt-4   hero-new-card'>
+                            <div className='border w-100 light-gray rounded-3 mx-auto  mt-4   hero-new-card'>
                                 <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Access our <span style={{ color: "#2CAAE6" }}>nationwide network of investors</span> who are ready to purchase properties. Ensure you find the right buyer for your home.
                                 </p>
                             </div>
-                            <div className='border w-100 light-gray rounded-3  mt-4  hero-new-card'>
+                            <div className='border w-100 light-gray rounded-3 mx-auto  mt-4  hero-new-card'>
                                 <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Trust Sell2Rent's <span style={{ color: "#2CAAE6" }}>30+ years of Real Estate excellence</span> to unlock the full potential of your single family home and get back on track.
                                 </p>
