@@ -404,21 +404,24 @@ h2 {
 /* --------------------------------slider---------------------------------- */
 .nextarrow {
   position: absolute;
-  top: 45%;
-  right: -55px;
+  top: 40%;
+  right: -35px;
   cursor: pointer;
   z-index: 5;
 }
 
 .prearrow {
   position: absolute;
-  top: 45%;
-  left: -55px;
+  top: 40%;
+  left: -35px;
   cursor: pointer;
   z-index: 5;
   transform: rotate(180deg);
 }
 
-.slick-slider {
-  width: 225px !important;
+@media screen and (max-width: 350px) {
+  .testing-slider {
+    width: 255px !important;
+  }
+
 }

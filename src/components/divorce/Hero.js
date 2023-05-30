@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
             <div className="container-fluid hero-bg-change-fluid">
                 <div className="row w-90 mx-auto  hero-bg-change rounded-5 p-md-5 px-2 pt-4">
-                    <div className='col-lg-6 col-md-10 text-md-start text-center'>
+                    <div className='col-lg-6 col-md-10 text-md-start text-center px-0'>
                         <p className='fs-17 text-white'>
                             YOUR HOME SELLING JOURNEY BEGINS HERE
                         </p>
@@ -43,19 +43,19 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    <div className="d-md-none d-block " >
-                        <Slider {...settings} className='mx-auto'>
-                            <div className='border light-gray rounded-3 mt-4  hero-new-card'>
+                    <div className="d-md-none d-block" >
+                        <Slider {...settings} className='mx-auto testing-slider px-3'>
+                            <div className='border w-100 light-gray rounded-3  mt-4  hero-new-card'>
                                 <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Countless homeowners have <span style={{ color: "#2CAAE6" }}>unlocked their home's value</span> and found financial freedom by selling and staying as renters.
                                 </p>
                             </div>
-                            <div className='border light-gray rounded-3 mt-4   hero-new-card'>
+                            <div className='border w-100 light-gray rounded-3  mt-4   hero-new-card'>
                                 <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Access our <span style={{ color: "#2CAAE6" }}>nationwide network of investors</span> who are ready to purchase properties. Ensure you find the right buyer for your home.
                                 </p>
                             </div>
-                            <div className='border light-gray rounded-3 mt-4  hero-new-card'>
+                            <div className='border w-100 light-gray rounded-3  mt-4  hero-new-card'>
                                 <p className='fs-18 fw-medium mb-0 px-1 py-3 text-center'>
                                     Trust Sell2Rent's <span style={{ color: "#2CAAE6" }}>30+ years of Real Estate excellence</span> to unlock the full potential of your single family home and get back on track.
                                 </p>
